@@ -1,0 +1,44 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    }
+li {
+    list-style: none;
+    }
+a {
+    text-decoration: none;
+    }
+a, img, span, table, tbody, button, ion-icon{
+    display: block;
+    }
+button, input {
+    font: inherit;
+    background-color: none;
+    border: none;
+    }
+input {
+    width: 100%;
+    }
+button {
+    cursor: pointer;
+    }
+address {
+    font-style: normal;
+    line-height: 1.8;
+    }
+html {
+    font-family: var(--fs-roboto);
+    font-size: 10px;
+    scroll-behavior: smooth;
+    }
+body {
+    background-color: var(--white);
+    font-size: 1.6rem;
+    padding-block-start: 90px;
+    height: 300vh;
+    }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: hsl(0, 0%, 95%); }
+::-webkit-scrollbar-thumb { background: hsl(0, 0%, 80%); }
+::-webkit-scrollbar-hover { background: hsl(0, 0%, 70%); }
+
